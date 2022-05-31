@@ -54,7 +54,6 @@ body {
 .flexrow {
   display: flex;
   flex-direction: row;
-
 }
 
 .flexrow > div {
@@ -69,6 +68,10 @@ body {
   font-size: smaller;
 }
 
+.large {
+  font-size: larger;
+}
+
 .alignleft {
   text-align: left;
 }
@@ -81,6 +84,14 @@ body {
   background-color: var(--accent-color);
 }
 
+.fixed-table > div > div:nth-child(odd) {
+  margin-right: auto;
+  width: 150px;
+}
+
+.fixed-table > div > div:nth-child(even) {
+  width: 200px;
+}
 
 .scrollable {
   overflow: scroll;
