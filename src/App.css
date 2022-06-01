@@ -90,10 +90,48 @@ body {
 }
 
 .fixed-table > div > div:nth-child(even) {
-  width: 200px;
+  max-width: 200px;
+}
+
+.fixed-table > div {
+  align-self: start;
 }
 
 .scrollable {
   overflow: scroll;
   height: 100vh;
+}
+
+.xyscrollable {
+  overflow-y: scroll;
+  overflow-x: scroll;
+}
+
+.fullwinheight {
+  height: 100vh;
+}
+
+.fullcontheight {
+  height: 100%;
+  width: 100%;
+}
+
+.padding{
+  padding: 10px;
+}
+
+#main_content {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.divider {
+  max-width: 8px;
+  min-width: 8px;
+  height: 100vh;
+  margin: 1rem;
+  background-color: #808080;
+  
 }

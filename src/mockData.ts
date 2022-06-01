@@ -104,3 +104,7 @@ export const itemOverviewContent: itemOverviewProps = {
   onlineAddress: "www.example.org/wie_man_ein_buch_schreibt",
   publisher: "The Publisher Company",
 };
+
+export const pdfPath =
+  process.env.PUBLIC_URL +
+  "/files/Educating_and_Raising_Awareness_on_Cyber_Security_Social_Engineering_A_Literature_Review.pdf";

@@ -47,7 +47,7 @@ export default function ItemOverview(props: itemOverviewProps) {
       </div>
       <div className="flexrow">
         <div>
-          <img src={imagePath} width={140} height={200} />
+          <img src={imagePath} width={140} height={200} alt="" />
         </div>
         <div className="flexcol">
           <p className="large">{props.title}.</p>
